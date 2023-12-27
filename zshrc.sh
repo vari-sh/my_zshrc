@@ -89,6 +89,6 @@ folder=$'\uea83'
 pc=$'\uf109'
 
 PROMPT=$'%B%F{green}╭───%B%F{blue}[%B%F{magenta} $user %n %B%F{blue}|%B%F{magenta} $pc %M %F{blue}]%B%F{green}──%F{blue}[%F{yellow} $folder %(5~|%-1~/…/%3~|%4~)%F{blue}]%{$reset_color%}$(github_info)$(conda_info)$(virtualenv_info)\n%B%F{green}╰─%(?.%b%F{blue}$chevron.%b%F{red}$chevron)%{$reset_color%} ' 
-RPROMPT=$'%(?..%F{red}il comando ha fallito, come te %{$reset_color%})%B%F{blue}[%b%F{cyan} %D{%Y-%m-%d} %t %B%F{blue}]%{$reset_color%}'
+RPROMPT=$'%B%F{blue}[%b%F{cyan} %D{%Y-%m-%d} %t %B%F{blue}]%{$reset_color%}'
 
 ###############################
